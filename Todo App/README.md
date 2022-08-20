@@ -86,6 +86,8 @@ expo init app-name
 
 - addTask () 함수 수정 
 
+
+
 #### Error! 
 
  vector-icons 사용하는 과정에서 에러가 났다. 

@@ -1,7 +1,7 @@
 import { TouchableOpacity, Image, StyleSheet } from 'react-native';
 import images from '../../images';
 
-const IconButtons = ( { type }) => {
+const IconButton = ({ type }) => {
   return ( 
     <TouchableOpacity style={styles.iconbutton}>
       <Image source={type}/>
@@ -15,4 +15,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default IconButtons;
+export default IconButton;
